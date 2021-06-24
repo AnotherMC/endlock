@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.anothermc.endlock.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "EndPortalBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

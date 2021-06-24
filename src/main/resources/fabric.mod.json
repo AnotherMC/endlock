@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "endlock",
+  "version": "${version}",
+
+  "name": "End Lock",
+  "authors": [
+    "Patbox"
+  ],
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "endlock.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
